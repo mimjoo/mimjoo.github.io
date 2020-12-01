@@ -5,6 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Style-Type" content="text/css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge, Chrome" />
+    <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.min.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="Semantic-UI-CSS-master/semantic.min.js"></script>
     <meta name="title" content="패트와 매트 | 야구 스코어 분석"/>
     <meta name="keywords" content="KBO, 한국야구위원회, 프로야구, KBO 리그, 팀별 최다스코어, 경기장별 기록" />
     <meta name="viewport" content="width=1200" />
@@ -16,24 +22,40 @@
     <link rel="icon" href="patmatrep_StP_icon.ico"/>
     <link rel="shortcut icon" href="patmatrep_StP_icon.ico"/>
     <link rel="stylesheet" href="baseballsite.css">
+    <style>
+    @font-face {font-family : "Na";
+      src : url("NanumBarunGothic.ttf");}
+    div{font-family: "Na", sans-serif;}
+    h1{font-family: "Na", sans-serif;}
+     a {
+       text-decoration:none;
+       color:black;
+     }
+     ol {list-style-type: none;}
+     </style>
+   </head>
+
   <body>
-    <h1>Pat and Mat | KBO Analysis</h1>
+    <h1><a href = "int.html">Pat and Mat | KBO Analysis</a></h1>
   <div id = "contents">
-    <ol>
-      <li><a href="int.html">Introduction</a></li>
-      <li><a href="team.html">Team Analysis</a></li>
-      <li><a href="stadiumscore.html">Stadium to Score</a></li>
-      <li><a href="scorestadium.html">Score to Stadium</a></li>
-      <li><a href="scoreteam.html">Score to Team</a></li>
+    <ol class = "nn">
+      <li><a href="int.html">| Introduction</a></li>
+      <li><a href="team.html">| Team Analysis</a></li>
+      <li><a href="stadiumscore.html">| Stadium to Score</a></li>
+      <li><a href="scorestadium.html"><u>Score to Stadium</u></a></li>
+      <li><a href="scoreteam.html">| Team to Score</a></li>
+      <li><a href="worklog.html">| Worklog</a></li>
     </ol>
     <div id= "article">
       <p>
         <h3>How to</h3>
-         스코어를 입력하면 그 스코어를 가장 많이 기록한 구장이 나옵니다.
+         <div class = "nn">스코어를 입력하면 그 스코어를 가장 많이 기록한 구장이 나옵니다.</div>
       </p>
       <p>
         <h3>Analysis</h3>
-        뿡
+      <div class = "nn">뿡</div>
+      <button class ="ui button">눌러보세여</button>
+      <button>눌러보세여</button>
       </p>
     </div>
   </div>

@@ -17,15 +17,15 @@
     <link rel="shortcut icon" href="patmatrep_StP_icon.ico"/>
     <link rel="stylesheet" href="baseballsite.css">
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap');
-	  .nn{
-	  	font-family: 'Gothic A1', sans-serif;
-	  	color: black;
-	     }
+    @font-face {font-family : "Na";
+      src : url("NanumBarunGothic.ttf");}
+    div{font-family: "Na", sans-serif;}
+    h1{font-family: "Na", sans-serif;}
      a {
        text-decoration:none;
        color:black;
      }
+     #menu {line-height : 1.5em;}
      .li {
        font-size: 2px;
      }
@@ -46,22 +46,24 @@
               #changwon {margin-left: 10%;margin-right: 10%}
   </style>
   </head>
+
   <body>
-    <h1>Pat and Mat | KBO Analysis</h1>
+    <h1><a href = "int.html">Pat and Mat | KBO Analysis</a></h1>
   <div id = "contents">
-    <ol class = "nn">
-      <li><a href="int.html">Introduction</a></li>
-      <li><a href="team.html">Team Analysis</a></li>
-      <li><a href="stadiumscore.html">Stadium to Score</a></li>
-      <li><a href="scorestadium.html">Score to Stadium</a></li>
-      <li><a href="scoreteam.html">Score to Team</a></li>
+    <ol id = "indexx">
+      <li><a href="int.html">| Introduction</a></li>
+      <li><a href="team.html">| Team Analysis</a></li>
+      <li><a href="stadiumscore.html"><u>Stadium to Score</u></a></li>
+      <li><a href="scorestadium.html">| Score to Stadium</a></li>
+      <li><a href="scoreteam.html">| Team to Score</a></li>
+      <li><a href="worklog.html">| Worklog</a></li>
     </ol>
     <div id= "article">
       <p><h3>How to</h3>
-        <div class = "nn">구장 이름(ex. 고척, 광주)을 입력하면 해당 구장에서 가장 많이 기록된 최종 스코어와 최근 경기를 알려준다. </div></p><br><br>
+        <div>구장 이름(ex. 고척, 광주)을 입력하면 해당 구장에서 가장 많이 기록된 최종 스코어와 최근 경기를 알려준다. </div></p><br>
       <p>
         <h3>Index</h3>
-        <ul class = "nn" id = "menu">
+        <ul id = "menu">
           <li><a href = "#gocheok">고척스카이돔</a></li>
           <li><a href = "#gwangju">광주-기아 챔피언스필드</a></li>
           <li><a href = "#daegu">대구 삼성 라이온즈 파크</a></li>
@@ -132,7 +134,7 @@
           <p class = "li"><a href = "#menu">[목록으로]</a></p><br>
 
         <img src = "Stadium to Score_창원.png" width="600" height="450" id = "changwon"><br><br>
-         <p class = 'nn'>지난 8년 간 창원 NC파크에서 가장 많이 기록된 스코어는 <strong>8:2</strong>와 <strong>1:2</strong>이며, 총 5번 기록되었습니다.<br><br>
+         <p class = 'nn'>지난 8년 간 마산종합운동장 야구장, 창원 NC파크에서 가장 많이 기록된 스코어는 <strong>8:2</strong>와 <strong>1:2</strong>이며, 총 5번 기록되었습니다.<br><br>
         가장 최근 8:2를 기록한 경기는 <a href = "https://sports.news.naver.com/kbaseball/vod/index.nhn?category=kbo&id=722081&gameId=20201002SSNC02020&listType=game&date=20201002" target = "_blank" title = "20201002 삼성-NC전 하이라이트">2020년 10월 2일(금) 삼성-NC전</a>입니다. 각 팀은 최채흥(삼성), 라이트(NC)를 선발투수로 내세웠으며, 승리투수는 최채흥(삼성, 6이닝 2피안타 3사사구 7삼진 1실점 1자책), 패전투수는 라이트(NC, 6이닝 8피안타 4삼진 4실점 4자책)였습니다.<br>
         총 17개의 안타(삼성 13, NC 4, 홈런 1(NC))가 기록되었으며, 선발 출장한 삼성 라이온즈 우익수 구자욱이 6회 초 1사 만루에서 우익수 쪽 2루타를 기록하여 결승타의 주인공이 되었습니다. </p>
         <p class = 'nn'>가장 최근 1:2를 기록한 경기는 <a href = "https://sports.news.naver.com/kbaseball/vod/index.nhn?category=kbo&id=656433&gameId=66660425HTNC02020&listType=game&date=20200425" target = "_blank" title = "20200425 기아-NC전 하이라이트">2020년 4월 25일(토) 기아-NC전</a>입니다. 각 팀은 양현종(기아), 라이트(NC)를 선발투수로 내세웠으며, 승리투수는 김건태(NC, 1.1이닝 1피안타 무실점), 패전투수는 하준영(기아, 0.1이닝 1피안타 1사사구 1실점 1자책)이었습니다.<br>
