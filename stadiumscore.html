@@ -16,17 +16,23 @@
     <link rel="icon" href="patmatrep_StP_icon.ico"/>
     <link rel="shortcut icon" href="patmatrep_StP_icon.ico"/>
     <link rel="stylesheet" href="baseballsite.css">
+    <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/Semantic-UI-CSS-master/semantic.min.css">
+      <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+      <script src="Semantic-UI-CSS-master/Semantic-UI-CSS-master/semantic.min.js"></script>
     <style>
     @font-face {font-family : "Na";
       src : url("NanumBarunGothic.ttf");}
     div{font-family: "Na", sans-serif;}
     h1{font-family: "Na", sans-serif;}
-     a {
-       text-decoration:none;
-       color:black;
-     }
-     #menu {line-height : 1.5em;}
-     .li {
+    .content {font-family: "Na", sans-serif;}
+    .sub header {font-family: "Na", sans-serif;}
+    a, i, h1, div {text-decoration:none;
+      color:black;}
+    #menu {line-height : 1.5em;}
+    .li {
        font-size: 2px;
      }
      ul {
@@ -44,24 +50,45 @@
             #suwon {margin-left: 10%;margin-right: 10%}
              #jamsil {margin-left: 10%;margin-right: 10%}
               #changwon {margin-left: 10%;margin-right: 10%}
+              video { max-width: 80%; display: block; margin: 20px auto; }
   </style>
   </head>
 
   <body>
-    <h1><a href = "int.html">Pat and Mat | KBO Analysis</a></h1>
+    <h4 class = "ui header"></h4>
+      <h1 class="ui center header"><a href = "int.html">
+        <i class="baseball ball icon"></i>
+          <div class="content">
+            Pat and Mat | KBO Analysis<br>
+            <div class="sub header">야구를 보며 한 번 쯤은 궁금해했을 법한 그것</div>
+          </div>
+      </a></h1>
   <div id = "contents">
-    <ol id = "indexx">
-      <li><a href="int.html">| Introduction</a></li>
-      <li><a href="team.html">| Team Analysis</a></li>
-      <li><a href="stadiumscore.html"><u>Stadium to Score</u></a></li>
-      <li><a href="scorestadium.html">| Score to Stadium</a></li>
-      <li><a href="scoreteam.html">| Team to Score</a></li>
-      <li><a href="worklog.html">| Worklog</a></li>
-    </ol>
+    <div class="ui secondary vertical pointing menu">
+      <a class="item" href="int.html">
+        Introduction
+      </a>
+      <a class="item" href="team.html">
+        Team Analysis
+      </a>
+      <a class="active item" href="stadiumscore.html">
+        Stadium to Score
+      </a>
+      <a class="item" href="scorestadium.html">
+        Score to Stadium
+      </a>
+      <a class="item" href="scoreteam.html">
+        Team to Score
+      </a>
+    </div>
     <div id= "article">
       <p><h3>How to</h3>
-        <div>구장 이름(ex. 고척, 광주)을 입력하면 해당 구장에서 가장 많이 기록된 최종 스코어와 최근 경기를 알려준다. </div></p><br>
-      <p>
+        <div>구장 이름(ex. 고척, 광주)을 입력하면 해당 구장에서 가장 많이 기록된 최종 스코어와 최근 경기를 알려줍니다. </div>
+        <p><video controls muted poster="baseball.jpg" preload="auto">
+          <source src="컴퓨팅 1.mp4" type="video/mp4">
+        </video></p>
+      
+        <p>
         <h3>Index</h3>
         <ul id = "menu">
           <li><a href = "#gocheok">고척스카이돔</a></li>

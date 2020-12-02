@@ -2,17 +2,6 @@
 <html lang="ko">
   <head>
     <title>Pat and Mat | Baseball score analysis</title>
-    <style>
-    @font-face {font-family : "Na";
-      src : url("NanumBarunGothic.ttf");}
-    div{font-family: "Na", sans-serif;}
-    h1{font-family: "Na", sans-serif;}
-     a {
-       text-decoration:none;
-       color:black;
-     }
-     ol {list-style-type: none;}
-     </style>
     <meta charset="utf-8">
     <meta http-equiv="Content-Style-Type" content="text/css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge, Chrome" />
@@ -27,23 +16,57 @@
     <link rel="icon" href="patmatrep_StP_icon.ico"/>
     <link rel="shortcut icon" href="patmatrep_StP_icon.ico"/>
     <link rel="stylesheet" href="baseballsite.css">
-  </head>
-
-  <body>
-    <h1><a href = "int.html">Pat and Mat | KBO Analysis</a></h1>
-  <div id = "contents">
-    <ol class = "nn">
-      <li><a href="int.html">| Introduction</a></li>
-      <li><a href="team.html"><u>Team Analysis</u></a></li>
-      <li><a href="stadiumscore.html">| Stadium to Score</a></li>
-      <li><a href="scorestadium.html">| Score to Stadium</a></li>
-      <li><a href="scoreteam.html">| Team to Score</a></li>
-      <li><a href="worklog.html">| Worklog</a></li>
-    </ol>
+    <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/Semantic-UI-CSS-master/semantic.min.css">
+      <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+      <script src="Semantic-UI-CSS-master/Semantic-UI-CSS-master/semantic.min.js"></script>
+      <style>
+        @font-face {font-family : "Na";
+          src : url("NanumBarunGothic.ttf");}
+        div {font-family: "Na", sans-serif;}
+        h1 {font-family: "Na", sans-serif;}
+        .content {font-family: "Na", sans-serif;}
+        .sub header {font-family: "Na", sans-serif;}
+        a, i, h1, div {text-decoration:none;
+          color:black;}
+        ol {list-style-type: none;}
+        mark{background-color : #E7AE27;}
+      </style>
+    </head>
+  
+    <body>
+      <h4 class = "ui header"></h4>
+      <h1 class="ui center header"><a href = "int.html">
+        <i class="baseball ball icon"></i>
+          <div class="content">
+            Pat and Mat | KBO Analysis<br>
+            <div class="sub header">야구를 보며 한 번 쯤은 궁금해했을 법한 그것</div>
+          </div>
+      </a></h1>
+      <div id = "contents">
+        <div class="ui secondary vertical pointing menu">
+          <a class="item" href="int.html">
+            Introduction
+          </a>
+          <a class="active item" href="team.html">
+            Team Analysis
+          </a>
+          <a class="item" href="stadiumscore.html">
+            Stadium to Score
+          </a>
+          <a class="item" href="scorestadium.html">
+            Score to Stadium
+          </a>
+          <a class="item" href="scoreteam.html">
+            Team to Score
+          </a>
+        </div>
     <div id= "article">
       <p>
         <h3>KIA Tigers</h3>
-        최강기아
+        기아~
       </p>
       <p>
         <h3>NC Dinosours</h3>
